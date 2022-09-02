@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detail.compare.CompareActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/usuall_toolbar"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:id="@+id/linear_second_frame"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <FrameLayout
+                        android:layout_marginLeft="16dp"
+                        android:background="@drawable/ic_compare"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp">
+
+                        <ImageView
+                            android:id="@+id/img_compare_removeProduct"
+                            app:tint="@color/white"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_round_close"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+
+                    </FrameLayout>
+
+                    <ir.hossein.digikala_kotlin.costum.MyImageView
+                        android:layout_width="150dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/img_compare_secondProduct"
+                        android:layout_height="150dp"/>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:maxLines="2"
+                        android:minLines="2"
+                        android:id="@+id/txt_compare_secondProductTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:id="@+id/txt_compare_secondProductPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="0.5"
+                    android:id="@+id/frame_compare_addProduct"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:text="افزودن محصول"
+                        android:id="@+id/btn_compare_addProduct"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:id="@+id/linear_first_frame"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="200dp">
+
+                <ir.hossein.digikala_kotlin.costum.MyImageView
+                    android:layout_width="150dp"
+                    android:id="@+id/img_compare_firstProduct"
+                    android:layout_height="150dp"/>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:minLines="2"
+                    android:id="@+id/txt_compare_firstProductTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:id="@+id/txt_compare_firstProductPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_compare"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

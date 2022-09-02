@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/root_emptyState"
+    android:background="@color/white"
+    android:translationZ="10dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_emptyState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/empty_state" />
+
+    <TextView
+        android:gravity="center"
+        android:textSize="16sp"
+        android:paddingRight="24dp"
+        android:paddingLeft="24dp"
+        android:textColor="@color/black"
+        tools:text="برای افزودن محصول به سبد خرید لطفا وارد حساب کاربری خود شوید"
+        android:id="@+id/txt_emptyState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_emptyState" />
+
+    <Button
+        android:id="@+id/btn_emptyState"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="ورود به حساب کاربری"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_emptyState" />
+</androidx.constraintlayout.widget.ConstraintLayout>

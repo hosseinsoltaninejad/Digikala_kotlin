@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Digikala_kotlin</string>
+    <string name="navigation_home">خانه</string>
+    <string name="navigation_cat">دسته بندی</string>
+    <string name="navigation_shopping">سبد خرید</string>
+    <string name="navigation_profile">دیجی کالای من</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login_rules">با ورود و یا ثبت نام در دیجی کالا شما شرایط و قوانین استفاده از سرویس های سایت دیجی کالا و قوانین حریم خصوصی آن را می پذیرید.</string>
+    <string name="login_hint">برای ورود و یا ثبت نام در دیجی کالا شماره موبایل یا پست الکترونیک خود را وارد نمایید</string>
+    <string name="edt_register">ثبت نام</string>
+    <string name="empty_state_signUp">لطفا وارد حساب کاربری خود شوید</string>
+    <string name="empty_state_empty_cart">محصولی در سبد خرید شما نیست</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

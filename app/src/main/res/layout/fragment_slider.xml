@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ir.hossein.digikala_kotlin.costum.MyImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingEnd="10dp"
+    android:paddingStart="10dp"
+    app:viewAspectRatio="1.33"
+    app:roundedCornerRadius="8dp"
+    android:id="@+id/slider_main">
+
+</ir.hossein.digikala_kotlin.costum.MyImageView>

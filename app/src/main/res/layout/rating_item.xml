@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+        tools:rcProgress="3"
+        app:rcMax="5"
+        android:id="@+id/roundCornerProgressBar"
+        app:rcRadius="4dp"
+        app:rcProgressColor="@color/green"
+        app:rcBackgroundColor="@color/gray200"
+        app:rcAnimationEnable="true"
+        android:layout_weight="0.7"
+        app:rcAnimationSpeedScale="2"
+        android:layout_height="12dp"
+        android:layout_width="0dp" />
+
+    <TextView
+        android:textSize="12sp"
+        android:id="@+id/txt_ratingItem_title"
+        android:textColor="@color/black"
+        tools:text="ارزش خرید"
+        android:layout_weight="0.3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

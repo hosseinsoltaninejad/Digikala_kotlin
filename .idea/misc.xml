@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_alarm.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bottom_navigation_style.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/gradiant_chart.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_add_location_alt.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_add_shopping_cart.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_bar_chart.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_cat.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_color_lens.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_compare.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_copyright.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_favorite_border.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_favorite_red.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_gaurantee.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_insert_comment.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_mobile_friendly.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_more_vert.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_perm_device_information.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_remove.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_round_close.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_share.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_sharp_arrow_left.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_shopping_cart.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_wave.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/shape_all_cat_list_item_bg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shape_cart_item_counter.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shape_cat.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shape_discount.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shape_divider.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shape_edt_search.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/shape_product_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_chart.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/activity_checkout.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/activity_compare.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/activity_compare_list.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/activity_detail.xml" value="0.15732855221873598" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_property.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/all_cat_list_item.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/cart_item.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/cat_item.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/compare_item.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/compare_list_item.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/content_detail.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/empty_state.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/fragment_cat.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/fragment_shop.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/fragment_slider.xml" value="0.4911894273127753" />
+        <entry key="app/src/main/res/layout/more_dialog.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/product_item.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/product_item_def.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/progressbar.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/properties_item.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/properties_item_child.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/purchase_item.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/rating_item.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/usuall_toolbar.xml" value="0.1828125" />
+        <entry key="app/src/main/res/menu/bottom_navagation_menu.xml" value="0.1828125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
