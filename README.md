@@ -9,7 +9,6 @@ Digikalala sample app developed MVVM architecture design pattern that follow the
 ✅ Retrofit <br/>
 ✅ Repository Pattern <br/>
 ✅ AndroidX <br/>
-✅ JetPack Libraries <br/>
 ✅ ...
 
 # Demo:
