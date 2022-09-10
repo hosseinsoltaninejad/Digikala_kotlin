@@ -1,5 +1,5 @@
 # Android-MVVM-RxJava-Digikala_kotlin
-Digikalala sample app developed MVVM architecture design pattern that follow the best practices of Object Oriented Design Patterns with following technology stack.
+Digikala sample app developed MVVM architecture design pattern that follow the best practices of Object Oriented Design Patterns with following technology stack.
 
 ✅ Architecture Design Pattern <br/>
 ✅ MVVM <br/>
